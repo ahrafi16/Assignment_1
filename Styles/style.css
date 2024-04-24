@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Header Design */
+header{
+    display: flex;
+    height: 808px;
+    width: 100%;
+    background-image: url('../images/banner/banner1.png');
+    justify-content: end;
+}
+.header-section-description{
+    text-align: right;
+    display: block;
+    align-items: center;
+    padding: 150px;
+}
+.header-title{
+    font-size: 65px;
+    width: 525px;
+    margin-bottom: 20px;
+}
+.header-des{
+    font-size: 16px;
+    width: 525px;
+    margin-bottom: 20px;
+}
+.btn{
+    height: 64px;
+    width: 160px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+/* Main content Design */
+.main-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding:150px;
+}
+
+.main-content-img img{
+    padding: 20px;
+}
+.content-heading{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.main-content-des{
+    text-align: left;
+    padding: 50px;
+}
+.my-plans{
+    padding:0px 150px;
+}
+.plan-heading{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.plan-details{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.plan{
+    text-align: center;
+}
+.plan-sub{
+    color: gray;
+}
