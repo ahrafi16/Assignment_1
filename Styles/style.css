@@ -10,6 +10,7 @@ header{
     height: 808px;
     width: 100%;
     background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
     justify-content: end;
 }
 .header-section-description{
@@ -74,4 +75,73 @@ header{
 }
 .plan-sub{
     color: gray;
+}
+.time-banner{
+    /* background-image: url('../images/watch.png'); */
+    background-repeat: no-repeat;
+    margin:150px;
+    padding:60px 100px 60px 60px;
+    background: linear-gradient(to left, transparent, #F15B22), url('../images/watch.png') no-repeat;
+}
+.time-banner-title{
+    width: 400px;
+    color: white;
+}
+.time-btn{
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #F15B22;
+    margin-top: 20px;
+}
+/* Footer design */
+footer{
+    background-color: #151414;
+}
+.footer-column{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 150px;
+    gap: 100px;
+}
+.future{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 485px;
+}
+.future-sub{
+    font-size: 15px;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.subscribe{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.subscribe-title{
+    font-size: 20px;
+}
+.subscribe input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+.btn-subscribe{
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #F15B22;
 }
